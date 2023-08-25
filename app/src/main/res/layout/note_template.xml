@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardNote"
+    android:layout_height="480dp"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="28dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/note_card">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="12dp"
+            android:orientation="vertical"
+            android:paddingHorizontal="8dp">
+
+            <TextView
+                android:id="@+id/txtNoteTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black_app"
+                android:fontFamily="@font/encode_sans"
+                android:textSize="48sp"
+                tools:text="Not sure where this is going" />
+
+            <TextView
+                android:id="@+id/txtNoteDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/text_notes"
+                android:fontFamily="@font/poppins_light"
+                android:textSize="24sp"
+                tools:text="4th Jan 2050"/>
+
+            <TextView
+                android:id="@+id/txtNoteDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="56dp"
+                android:fontFamily="@font/poppins_light"
+                android:textColor="@color/text_notes"
+                android:textSize="28sp"
+                tools:text="Don't read the captions, its all same, you dumb dumb, did you even read this though." />
+
+            <ImageView
+                android:id="@+id/imgNoteIcon"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/ic_add"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

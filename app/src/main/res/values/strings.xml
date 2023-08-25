@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NoteGenius</string>
+    <string name="welcome_message">You suck at taking notes brother, you need us :)</string>
+    <string name="your_notes">Your Notes</string>
+    <string name="start">Start</string>
+    <string name="all_tag">#All</string>
+    <string name="work_tag">#Work</string>
+    <string name="personal_tag">#Personal</string>
+    <string name="fitness_tag">#Fitness</string>
+    <string name="budget_tag">#Budget</string>
+</resources>
